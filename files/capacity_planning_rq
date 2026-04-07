@@ -1,0 +1,27 @@
+[RESOURCE/SYSTEM]
+
+    The "Line 3 - Automated Coil Winding & Assembly" at the AutoSpark manufacturing plant. The key performance metric is units produced per day.
+
+
+[CURRENT_DATA]
+
+    -Infrastructure: Line 3 is a semi-automated assembly line.
+    -Operating Schedule: Runs 2 shifts per day, 5 days a week (16 hours of operating time/day).
+    -Maximum Theoretical Capacity: 1,200 units/day.
+    -Current Overall Equipment Effectiveness (OEE): 80% (due to scheduled maintenance, tool changes, and minor stoppages).
+    -Actual Current Capacity: 1,200 units/day * 80% OEE = 960 units/day.
+    -Current Production (Existing Customers): Averaging 800 units/day.
+    -Current Utilization: 800 units / 960 actual capacity = 83.3%.
+
+[DEMAND_PROJECTION]
+
+  -Existing Customer Demand: Stable at 800 units/day.
+  -New EV Contract Demand:
+    --Q3 (Starts July): Requires 300 units/day.
+    --Q4 (Starts October): Ramps up to 600 units/day.
+    --Q1 Next Year (Starts January): Full production at 900 units/day.
+  
+  -Total Projected Demand:
+    --Q3: 800 (existing) + 300 (new) = 1,100 units/day (exceeds actual capacity).
+    --Q4: 800 (existing) + 600 (new) = 1,400 units/day.
+    --Q1 Next Year: 800 (existing) + 900 (new) = 1,700 units/day.
